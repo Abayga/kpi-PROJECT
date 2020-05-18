@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(120deg,#487eb0, purple );
+    min-height: 100vh;
+    font-family: 'Lilita One', cursive;
+}
+
+table, th, tbody, td{
+    border: 1px solid black;
+}
+
+.KPI{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+}
+.removed{
+    opacity: 0;
+}
+
+span.highlight {
+    background-color: #C6D9DB; cursor: pointer; }
+    span.splink {
+    color: #0A5794; cursor: pointer; }
+
+
+
+
+
+
+
+
+
+    .searchtext {
+    
+        font-size: 16px;
+  
+        font-weight: bold;
+  
+        height: 27px;
+  
+        padding: 0 6px 0 ;
+  
+        width: 250px;
+  
+  
+      border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    }
+  
+   
+  
+    .highlight {background:#4CFF00;}
+  
+   
+    
+  
+    .search-button {
+  
+        background-color: #0B2F3F;
+  
+        font-weight: bold;
+  
+      font-size: 12px;
+  
+    
+  
+        height: 28px;
+  
+        margin: 0;
+  
+        color: #ffffff;
+  
+        padding: 6px;
+  
+
+  
+      border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    }
+  
+
+.bodied{
+    background-color:green
+}
+.collectModal{
+    margin: 100px auto;
+    background-color: white;
+}
+
+
+input{
+        border: none;
+        border-bottom: 2px solid #000;
+        background: none;
+        padding: 10px;
+        outline: none;
+        font-size: 18px;
+        color: white;
+        font-family: 'Luckiest Guy', cursive;
+    
+    
+}
+input::placeholder{
+    color: black;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+.btnAdd{
+    background-color: rgba(255 , 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+table{
+    width: 50%;
+}
